@@ -17,9 +17,11 @@
 }
 class Program
 {
-    static string compare(Rectangle rectangleOne, Rectangle rectangleTwo)
+    static double compare(Rectangle rectangleOne, Rectangle rectangleTwo)
     {
-        int largerArea = Math.Max(rectangleOne.Area(), rectangleTwo.Area());
+        double largerArea = Math.Max(rectangleOne.Area(), rectangleTwo.Area());
+
+        return largerArea;
     }
 
     static void Main(string[] args)
@@ -28,6 +30,10 @@ class Program
 
         Rectangle rectTwo = new Rectangle(2.32, 5.6);
 
-        
+        Console.WriteLine(rectOne.Area());
+
+        Console.WriteLine(rectTwo.Area());
+
+        Console.WriteLine($"The largest area is {compare(rectOne, rectTwo)}.");
     }
 }
