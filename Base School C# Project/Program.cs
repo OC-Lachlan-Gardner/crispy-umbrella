@@ -1,33 +1,21 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Data.Common;
 
-public class Student
+class BankAccount
 {
-    public int id;
+    public string owner;
 
-    public string name;
+    public long balance;
 
-    public string NSN;
-
-    public string email;
-
-    public int age;
-
-    public int score;
-
-    public Student(int idNumber, string studentName, string studentNSN, string studentEmail, int studentAge, int studentScore)
+    public BankAccount(string ownerName, long ownerBalance)
     {
-        id = idNumber;
-        name = studentName;
-        NSN = studentNSN;
-        email = studentEmail;
-        age = studentAge;
-        score = studentScore;
+        owner = ownerName;
+        balance = ownerBalance;
     }
 
-    public string summary()
+    public string Description()
     {
-        return $"{name} has {score} points.";
+        return $"{owner} has ${balance} in their account";
     }
 }
 
@@ -35,15 +23,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Student lachlan = new(123, "Lachlan", "NSN1234", "lachlan.gardner@student.onslow.school.nz", 17, 14);
+        BankAccount Lachlan = new BankAccount("Lachlan", 999999999999999999);
 
-        Console.WriteLine(lachlan.id);
-        Console.WriteLine(lachlan.name);
-        Console.WriteLine(lachlan.NSN);
-        Console.WriteLine(lachlan.email);
-        Console.WriteLine(lachlan.age);
+        BankAccount Person = new BankAccount("Person", 50);
 
-        Console.WriteLine(lachlan.summary());
-        
+        Console.WriteLine(Lachlan.Description());
+
+        Console.WriteLine(Person.Description());
     }
 }
