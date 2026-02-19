@@ -1,49 +1,33 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Data.Common;
-
-public class Student
+﻿class Rectangle
 {
-    public int id;
+    public double width;
 
-    public string name;
+    public double height;
 
-    public string NSN;
-
-    public string email;
-
-    public int age;
-
-    public int score;
-
-    public Student(int idNumber, string studentName, string studentNSN, string studentEmail, int studentAge, int studentScore)
+    public Rectangle(double rectWidth, double rectHeight)
     {
-        id = idNumber;
-        name = studentName;
-        NSN = studentNSN;
-        email = studentEmail;
-        age = studentAge;
-        score = studentScore;
+        width = rectWidth;
+        height = rectHeight;
     }
 
-    public string summary()
+    public double Area()
     {
-        return $"{name} has {score} points.";
+        return width * height;
     }
 }
-
 class Program
 {
+    static string compare(Rectangle rectangleOne, Rectangle rectangleTwo)
+    {
+        int largerArea = Math.Max(rectangleOne.Area(), rectangleTwo.Area());
+    }
+
     static void Main(string[] args)
     {
-        Student lachlan = new(123, "Lachlan", "NSN1234", "lachlan.gardner@student.onslow.school.nz", 17, 14);
+        Rectangle rectOne =  new Rectangle(1.34, 2.43);
 
-        Console.WriteLine(lachlan.id);
-        Console.WriteLine(lachlan.name);
-        Console.WriteLine(lachlan.NSN);
-        Console.WriteLine(lachlan.email);
-        Console.WriteLine(lachlan.age);
+        Rectangle rectTwo = new Rectangle(2.32, 5.6);
 
-        Console.WriteLine(lachlan.summary());
         
     }
 }
