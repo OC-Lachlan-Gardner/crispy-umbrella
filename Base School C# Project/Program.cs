@@ -1,33 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Data.Common;
-
-public class Student
+﻿class Car
 {
-    public int id;
+    public string brand;
 
-    public string name;
+    public string model;
 
-    public string NSN;
+    public int year;
 
-    public string email;
-
-    public int age;
-
-    public int score;
-
-    public Student(int idNumber, string studentName, string studentNSN, string studentEmail, int studentAge, int studentScore)
+    public Car(string carBrand, string carModel, int carYear)
     {
-        id = idNumber;
-        name = studentName;
-        NSN = studentNSN;
-        email = studentEmail;
-        age = studentAge;
-        score = studentScore;
-    }
-
-    public string summary()
-    {
-        return $"{name} has {score} points.";
+        brand = carBrand;
+        model = carModel;
+        year = carYear;
     }
 }
 
@@ -35,15 +18,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Student lachlan = new(123, "Lachlan", "NSN1234", "lachlan.gardner@student.onslow.school.nz", 17, 14);
+        Car Rolls = new Car("Rolls Royce", "Something from Rolls Royce", 1989);
 
-        Console.WriteLine(lachlan.id);
-        Console.WriteLine(lachlan.name);
-        Console.WriteLine(lachlan.NSN);
-        Console.WriteLine(lachlan.email);
-        Console.WriteLine(lachlan.age);
+        Car Porsche = new Car("Porshce", "Something from Porsche", 1999);
 
-        Console.WriteLine(lachlan.summary());
-        
+        Console.WriteLine($"Car from {Rolls.brand}, model is {Rolls.model}, made in {Rolls.year}");
+
+        Console.WriteLine($"Car from {Porsche.brand}, model is {Porsche.model}, made in {Porsche.year}");
     }
 }
