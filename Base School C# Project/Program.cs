@@ -1,33 +1,21 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Data.Common;
-
-public class Student
+﻿class Quest
 {
-    public int id;
+    string title;
 
-    public string name;
+    string difficulty;
 
-    public string NSN;
+    int reward;
 
-    public string email;
-
-    public int age;
-
-    public int score;
-
-    public Student(int idNumber, string studentName, string studentNSN, string studentEmail, int studentAge, int studentScore)
+    public Quest(string questTitle, string questDifficulty, int questReward)
     {
-        id = idNumber;
-        name = studentName;
-        NSN = studentNSN;
-        email = studentEmail;
-        age = studentAge;
-        score = studentScore;
+        title = questTitle;
+        difficulty = questDifficulty;
+        reward = questReward;
     }
 
-    public string summary()
+    public void printBadge()
     {
-        return $"{name} has {score} points.";
+        Console.WriteLine($"{title} - {difficulty} Quest - {reward} XP");
     }
 }
 
@@ -35,15 +23,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Student lachlan = new(123, "Lachlan", "NSN1234", "lachlan.gardner@student.onslow.school.nz", 17, 14);
+        Quest questOne = new Quest("Finish this task", "Hard", 50);
 
-        Console.WriteLine(lachlan.id);
-        Console.WriteLine(lachlan.name);
-        Console.WriteLine(lachlan.NSN);
-        Console.WriteLine(lachlan.email);
-        Console.WriteLine(lachlan.age);
+        Quest questTwo = new Quest("Turn in task", "Medium", 40);
 
-        Console.WriteLine(lachlan.summary());
-        
+        Quest questThree = new Quest("Close laptop", "Easy", 30);
+
+        questOne.printBadge();
+        questTwo.printBadge();
+        questThree.printBadge();
     }
 }
