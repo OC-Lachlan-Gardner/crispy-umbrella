@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EAuDWOZUkyg=",
+  "success": true,
+  "projectFilePath": "/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/School-C#-Stuff.csproj",
+  "expectedPackageFiles": [
+    "/home/Lachlan/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.12/microsoft.aspnetcore.app.ref.9.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
