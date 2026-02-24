@@ -1,0 +1,15 @@
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.GeneratedMSBuildEditorConfig.editorconfig
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.AssemblyInfoInputs.cache
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.AssemblyInfo.cs
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.csproj.CoreCompileInputs.cache
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.sourcelink.json
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/bin/Debug/net9.0/School-C#-Stuff
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/bin/Debug/net9.0/School-C#-Stuff.deps.json
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/bin/Debug/net9.0/School-C#-Stuff.runtimeconfig.json
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/bin/Debug/net9.0/School-C#-Stuff.dll
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/bin/Debug/net9.0/School-C#-Stuff.pdb
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.dll
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/refint/School-C#-Stuff.dll
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.pdb
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/School-C#-Stuff.genruntimeconfig.cache
+/home/Lachlan/School C# Projects/School C# Github/crispy-umbrella/School-C#-Stuff/obj/Debug/net9.0/ref/School-C#-Stuff.dll
