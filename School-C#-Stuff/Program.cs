@@ -30,4 +30,4 @@ class Program
     }
 }
 
-// It's better because it keeps the code cleaner when it's contained within the Temperature class.
+// It doesn't have to access specific assigned properties, so it's better to have it as a static method.
