@@ -23,9 +23,9 @@ class Program
 
         foreach (double temp in temps)
         {
-            Console.WriteLine($"To Fahrenheit: {Temperature.ToFahrenheit(temp)}");
+            Console.WriteLine($"{temp} to Fahrenheit: {Temperature.ToFahrenheit(temp)}");
 
-            Console.WriteLine($"To Celsius: {Temperature.ToCelsius(temp)}");
+            Console.WriteLine($"{temp} to Celsius: {Temperature.ToCelsius(temp)}");
         }
     }
 }
