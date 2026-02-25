@@ -24,7 +24,7 @@
         Seconds = 0;
     }
 
-    public static void Update()
+    public void Update()
     {
         Console.WriteLine($"Timer runner: {IsRunning}");
         Console.WriteLine($"{Seconds} seconds have passed");
