@@ -1,4 +1,4 @@
-﻿using System.Text.Json; 
+﻿using Newtonsoft.Json;
 
 interface IIdentifiable
 {
@@ -46,9 +46,9 @@ class Course: IIdentifiable, IDescribable
 
 class Enrolled
 {
-    Guid StudentID;
+    public Guid StudentID;
 
-    Guid CourseID;
+    public Guid CourseID;
 
     public Enrolled(Guid studentID, Guid courseID)
     {
@@ -60,16 +60,16 @@ class Enrolled
     public static string Encode(Enrolled enrolled)
     {
 
-        string encodedString = JsonSerializer.Serialize(enrolled);
+        string encodedString = JsonConvert.SerializeObject(enrolled);
         return encodedString;
     }
 
-    // public static Enrolled Decode(string encodedString)
-    // {
-    //     return JsonSerializer.Deserialize<Enrolled>(encodedString);
-    // }
+    public static Enrolled? Decode(string encodedString)
+    {
+        Enrolled decodedString = JsonConvert.DeserializeObject<Enrolled>(encodedString)!;
+        return decodedString;
+    }
 }
-
 class Program
 {
     public static void Main(string[] args)
@@ -77,14 +77,15 @@ class Program
         Student testStudent = new Student("Lachlan", 17);
 
         Course testCourse = new Course("Digi");
-        
-        Console.WriteLine(testCourse.Description);
 
         Enrolled testEnrolled = new Enrolled(testStudent.ID, testCourse.ID);
 
-        string encodedStudent = JsonSerializer.Serialize(testStudent);
+        string testEnrolledEncoded = Enrolled.Encode(testEnrolled);
 
-        Enrolled testDecode = JsonSerializer.Deserialize<Enrolled>(encodedStudent)!;
-        Console.WriteLine(testDecode);
+        Enrolled testEnrolledDecoded = Enrolled.Decode(testEnrolledEncoded)!;
+
+        Console.WriteLine(testEnrolledEncoded);
+
+        Console.WriteLine(testEnrolledDecoded.StudentID);
     }
 }
