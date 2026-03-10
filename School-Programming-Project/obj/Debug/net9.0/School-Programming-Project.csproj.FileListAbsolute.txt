@@ -1,0 +1,15 @@
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/bin/Debug/net9.0/School-Programming-Project
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/bin/Debug/net9.0/School-Programming-Project.deps.json
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/bin/Debug/net9.0/School-Programming-Project.runtimeconfig.json
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/bin/Debug/net9.0/School-Programming-Project.dll
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/bin/Debug/net9.0/School-Programming-Project.pdb
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.GeneratedMSBuildEditorConfig.editorconfig
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.AssemblyInfoInputs.cache
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.AssemblyInfo.cs
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.csproj.CoreCompileInputs.cache
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.sourcelink.json
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.dll
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/refint/School-Programming-Project.dll
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.pdb
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/School-Programming-Project.genruntimeconfig.cache
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/obj/Debug/net9.0/ref/School-Programming-Project.dll
