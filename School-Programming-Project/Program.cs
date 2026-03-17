@@ -25,7 +25,7 @@ class Program
     {
         Console.WriteLine("Started");
 
-        using var connection = new SqliteConnection("Data Source=/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/cafe.db");
+        using var connection = new SqliteConnection("Data Source=:memory:");
 
         connection.Open();
 
@@ -33,8 +33,16 @@ class Program
 
         // Gets all names?
         command.CommandText = """
-        SELECT *
-        FROM Purchaser
+        CREATE TABLE Purchasers {
+            PurchaseID Int64 AUTO_INCREMENT PRIMARY KEY,
+            FirstName String NOT NULL,
+            Count Int DEFAULT 1,
+            ReservedTable String
+        }
+
+        CREATE TABLE Orders {
+            OrderID Int64 AUTO_INCREMENT PRIMARY KEY
+        }
         """;
 
         using var reader = command.ExecuteReader();
