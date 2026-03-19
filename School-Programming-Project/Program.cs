@@ -40,20 +40,25 @@ public class Order
 
 public class Purchaser
 {
-    required public int PurchaserID {get; set;}
+    public int PurchaserID {get; set;}
 
-    required public string Name {get; set;}
+    public string Name {get; set;}
 
-    required public int Count {get; set;}
+    public int Count {get; set;}
 
-    required public int ReservedTable {get; set;}
+    public int ReservedTable {get; set;}
 }
 
 class Program
 {
     static void Main(string[] args)
     {
-        using var db = new CafeContext();
+        using (var db = new CafeContext())
+        {
+            var Purchser = new Purchaser()
+            {
+            }
+        };
 
         Console.WriteLine("Succeeded");
     }

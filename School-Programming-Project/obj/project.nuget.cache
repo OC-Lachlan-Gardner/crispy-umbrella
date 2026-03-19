@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3pjZ86QdQWA=",
+  "dgSpecHash": "vXBiAykNFfs=",
   "success": true,
   "projectFilePath": "/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/School-Programming-Project.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,7 @@
     "/home/Lachlan/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.9/microsoft.entityframeworkcore.sqlite.9.0.9.nupkg.sha512",
     "/home/Lachlan/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/9.0.9/microsoft.entityframeworkcore.sqlite.core.9.0.9.nupkg.sha512",
     "/home/Lachlan/.nuget/packages/microsoft.entityframeworkcore.sqlserver/9.0.9/microsoft.entityframeworkcore.sqlserver.9.0.9.nupkg.sha512",
-    "/home/Lachlan/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.9/microsoft.entityframeworkcore.tools.9.0.9.nupkg.sha512",
+    "/home/Lachlan/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.8/microsoft.entityframeworkcore.tools.9.0.8.nupkg.sha512",
     "/home/Lachlan/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.9/microsoft.extensions.caching.abstractions.9.0.9.nupkg.sha512",
     "/home/Lachlan/.nuget/packages/microsoft.extensions.caching.memory/9.0.9/microsoft.extensions.caching.memory.9.0.9.nupkg.sha512",
     "/home/Lachlan/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.9/microsoft.extensions.configuration.abstractions.9.0.9.nupkg.sha512",
