@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School-Programming-Project", "School-Programming-Project\School-Programming-Project.csproj", "{229353F8-125B-4D2B-BC87-45D9E056995D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School-Programming-Project", "School-Programming-Project\School-Programming-Project.csproj", "{DFA2337B-BB8A-409A-91B2-0700095E4C5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{229353F8-125B-4D2B-BC87-45D9E056995D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{229353F8-125B-4D2B-BC87-45D9E056995D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{229353F8-125B-4D2B-BC87-45D9E056995D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{229353F8-125B-4D2B-BC87-45D9E056995D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA2337B-BB8A-409A-91B2-0700095E4C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA2337B-BB8A-409A-91B2-0700095E4C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA2337B-BB8A-409A-91B2-0700095E4C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA2337B-BB8A-409A-91B2-0700095E4C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
