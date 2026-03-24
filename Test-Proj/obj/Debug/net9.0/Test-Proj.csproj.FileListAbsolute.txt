@@ -1,0 +1,15 @@
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/bin/Debug/net9.0/Test-Proj
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/bin/Debug/net9.0/Test-Proj.deps.json
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/bin/Debug/net9.0/Test-Proj.runtimeconfig.json
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/bin/Debug/net9.0/Test-Proj.dll
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/bin/Debug/net9.0/Test-Proj.pdb
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.GeneratedMSBuildEditorConfig.editorconfig
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.AssemblyInfoInputs.cache
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.AssemblyInfo.cs
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.csproj.CoreCompileInputs.cache
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.sourcelink.json
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.dll
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/refint/Test-Proj.dll
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.pdb
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/Test-Proj.genruntimeconfig.cache
+/home/Lachlan/School-Programming-Projects/crispy-umbrella/Test-Proj/obj/Debug/net9.0/ref/Test-Proj.dll
