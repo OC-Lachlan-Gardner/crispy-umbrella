@@ -6,8 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 public class CafeContext: DbContext
 {
-    public string DbPath { get; }
-
     public DbSet<Purchaser> Purchasers { get; set; }
 
     public DbSet<Item> Items { get; set; }
@@ -15,11 +13,10 @@ public class CafeContext: DbContext
     public DbSet<Order> Orders { get; set; }
 
     // Where the database is located.
-    public CafeContext()
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        DbPath = "cafe.db";
+        optionsBuilder.UseSqlServer("Data Source=/home/Lachlan/School-Programming-Projects/crispy-umbrella/cafe.d;Mode=ReadWrite");
     }
-
 }
 
 // Tables.
@@ -47,6 +44,17 @@ public class Purchaser
     public int Count {get; set;}
 
     public int ReservedTable {get; set;}
+
+    public Purchaser(int purchaserID, string name, int count, int reservedTable)
+    {
+        PurchaserID = purchaserID;
+
+        Name = name;
+
+        Count = count;
+
+        ReservedTable = reservedTable;
+    }
 }
 
 class Program
@@ -55,9 +63,14 @@ class Program
     {
         using (var db = new CafeContext())
         {
-            var Purchser = new Purchaser()
-            {
-            }
+            Console.WriteLine("Connection successful.");
+            var Purchser = new Purchaser(1, "Lachlan", 1, 4);
+
+            db.Purchasers.Add(Purchser);
+            Console.WriteLine("Adding successful");
+
+            db.SaveChanges();
+            Console.WriteLine("Saving successful");
         };
 
         Console.WriteLine("Succeeded");
