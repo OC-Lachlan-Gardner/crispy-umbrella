@@ -15,7 +15,7 @@ public class CafeContext: DbContext
     // Where the database is located.
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=/home/Lachlan/School-Programming-Projects/crispy-umbrella/cafe.d");
+        optionsBuilder.UseSqlite("Data Source=/home/Lachlan/School-Programming-Projects/crispy-umbrella/School-Programming-Project/cafe.db");
     }
 }
 
